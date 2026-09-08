@@ -1,0 +1,13 @@
+description: >-
+  Grants for the puddle-builders group — allows running workflows and
+  model methods in this repo via swamp serve.
+grants:
+  - subject: group:puddle-builders
+    effect: allow
+    actions: [run]
+    resource: workflow:*
+
+  - subject: group:puddle-builders
+    effect: allow
+    actions: [run]
+    resource: model:*
